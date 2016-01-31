@@ -62,7 +62,13 @@ app.get('/*', function(req, res){
         <footer style="border-top: 1px solid #ccc; margin-top: 5em; ">\
           <p><span>on <a href="https://github.com/pankajparashar/atomize-io">Github</a> | via <a href="https://www.heroku.com/">Heroku</a></span>\
               <span style="float: right">by <a href="https://pankajparashar.com">Pankaj Parashar</a></span>\
-          </p></footer></body></html>';
+          </p></footer>   <script>\
+        !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(\
+        arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];\
+        d.src="//d1l6p2sc9645hc.cloudfront.net/tracker.js";q.parentNode.\
+        insertBefore(d,q)}(window,document,"script","_gs");\
+        _gs("GSN-360111-P");\
+    </script></body></html>';
         res.send(html);
     });
 });
