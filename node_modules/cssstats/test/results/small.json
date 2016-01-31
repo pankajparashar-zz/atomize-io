@@ -1,0 +1,156 @@
+{
+  "size": 885,
+  "gzipSize": 367,
+  "rules": {
+    "total": 12,
+    "size": {
+      "graph": [
+        1,
+        1,
+        3,
+        1,
+        2,
+        2,
+        1,
+        1,
+        4,
+        4,
+        1,
+        1
+      ],
+      "max": 4,
+      "average": 1.8333333333333333
+    }
+  },
+  "selectors": {
+    "total": 13,
+    "type": 1,
+    "class": 9,
+    "id": 1,
+    "pseudoClass": 3,
+    "pseudoElement": 1,
+    "values": [
+      ".red",
+      "#foo",
+      ".red",
+      ".sm-tomato",
+      ".sm-tomato::after",
+      ".sm-tomato:first-child:last-child",
+      ".box",
+      ".box:first-child",
+      ".box:last-child",
+      "0%",
+      "100%",
+      "header",
+      ".georgia"
+    ],
+    "specificity": {
+      "max": 100,
+      "average": 18
+    }
+  },
+  "declarations": {
+    "total": 22,
+    "properties": {
+      "color": [
+        "red",
+        "red",
+        "tomato"
+      ],
+      "background-color": [
+        "hotpink"
+      ],
+      "-ms-border-radius": [
+        "0"
+      ],
+      "content": [
+        "'hello'"
+      ],
+      "opacity": [
+        ".8",
+        "0",
+        "1"
+      ],
+      "border-bottom": [
+        "none"
+      ],
+      "margin": [
+        "10px",
+        "0px 0"
+      ],
+      "padding": [
+        "5px",
+        "0"
+      ],
+      "margin-bottom": [
+        "0px"
+      ],
+      "-webkit-transform": [
+        "translateY(-20px) translate3d(0, 0, 0)",
+        "translateY(0) translate3d(0, 0, 0)"
+      ],
+      "-ms-transform": [
+        "translateY(-20px) translate3d(0, 0, 0)",
+        "translateY(0) translate3d(0, 0, 0)"
+      ],
+      "transform": [
+        "translateY(-20px) translate3d(0, 0, 0)",
+        "translateY(0) translate3d(0, 0, 0)"
+      ],
+      "font": [
+        "1.5em Georgia"
+      ]
+    }
+  },
+  "mediaQueries": {
+    "total": 1,
+    "unique": 1,
+    "values": [
+      "(min-width: 30em)"
+    ],
+    "contents": [
+      {
+        "value": "(min-width: 30em)",
+        "rules": {
+          "total": 1,
+          "size": {
+            "graph": [
+              3
+            ],
+            "max": 3,
+            "average": 3
+          }
+        },
+        "selectors": {
+          "total": 1,
+          "type": 0,
+          "class": 1,
+          "id": 0,
+          "pseudoClass": 0,
+          "pseudoElement": 0,
+          "values": [
+            ".sm-tomato"
+          ],
+          "specificity": {
+            "max": 10,
+            "average": 10
+          }
+        },
+        "declarations": {
+          "total": 3,
+          "properties": {
+            "color": [
+              "tomato"
+            ],
+            "background-color": [
+              "hotpink"
+            ],
+            "-ms-border-radius": [
+              "0"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

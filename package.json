@@ -1,0 +1,10 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "dependencies": {
+    "cssstats": "^2.1.2",
+    "express": "4.10.2",
+    "get-css": "^1.2.1"
+  }
+}
