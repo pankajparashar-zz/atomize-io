@@ -74,8 +74,8 @@
             <tfoot>
                 <tr class="separator">
                     <td></td>
-                    <td colspan="2">Save <%= (sc_bgzipped-sc_agzipped).toFixed(2) %> KB!</td>
-                    <td colspan="2">Save <%= (cc_bgzipped-cc_agzipped).toFixed(2) %> KB!</td>
+                    <td colspan="2">Save <%= (sc_bgzipped-sc_agzipped).toFixed(2) %> KB! (<%= (((sc_bgzipped-sc_agzipped)/sc_bgzipped)*100).toFixed(2) %>%)</td>
+                    <td colspan="2">Save <%= (cc_bgzipped-cc_agzipped).toFixed(2) %> KB! (<%= (((cc_bgzipped-cc_agzipped)/cc_bgzipped)*100).toFixed(2) %>%)</td>
                 </tr>
             </tfoot>
         </table>
