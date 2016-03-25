@@ -1,6 +1,6 @@
 {
-  "name": "Atomize IO",
-  "version": "0.0.@",
+  "name": "atomize-io",
+  "version": "0.0.2",
   "description": "Atomize your website to see how much you can benefit from Atomic CSS",
   "dependencies": {
     "critical": "^0.7.1",
@@ -9,10 +9,8 @@
     "express": "4.10.2",
     "get-css": "^1.2.1",
     "gzip-size": "^3.0.0",
-    "penthouse": "^0.9.1",
     "postcss": "^5.0.19",
     "purify-css": "^1.1.9",
-    "request": "^2.69.0",
-    "uncss": "^0.13.0"
+    "request": "^2.69.0"
   }
 }

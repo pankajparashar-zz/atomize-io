@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 var app = require('express')();
 var http = require('http').Server(app);
@@ -125,5 +125,5 @@ function getAtomicCSS(inputCSS) {
       return str
     }, '')
 
-    return { uniqueID: uniqueID, outputCSS: dedupedCSS }
+    return { uniqueID: uniqueID, outputCSS: dedupedCSS };
 }
