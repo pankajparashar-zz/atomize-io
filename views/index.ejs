@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Atomize IO - <%= title %></title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+
+        <% include header %>
+
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2"><a href="//<%= title %>"><%= title %></a></th>
+                    <th colspan="2">Single page CSS</th>
+                    <th colspan="2">Complete CSS</th>
+                </tr>
+                <tr>
+                    <th>Before</th>
+                    <th>After</th>
+
+                    <th>Before</th>
+                    <th>After</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="separator">
+                    <td>No. of Rulesets</td>
+
+                    <td><%= sc_brulesets %></td>
+                    <td><%= sc_arulesets %></td>
+
+                    <td><%= cc_brulesets %></td>
+                    <td><%= cc_arulesets %></td>
+                </tr>
+                <tr>
+                    <td>No. of Selectors</td>
+
+                    <td><%= sc_bselectors %></td>
+                    <td><%= sc_aselectors %></td>
+
+                    <td><%= cc_bselectors %></td>
+                    <td><%= cc_aselectors %></td>
+                </tr>
+                <tr>
+                    <td>No. of Declarations</td>
+
+                    <td><%= sc_bdeclarations %></td>
+                    <td><%= sc_adeclarations %></td>
+
+                    <td><%= cc_bdeclarations %></td>
+                    <td><%= cc_adeclarations %></td>
+                </tr>
+                <tr>
+                    <td>Size (in KB)</td>
+
+                    <td><%= sc_bsize %></td>
+                    <td><%= sc_asize %></td>
+
+                    <td><%= cc_bsize %></td>
+                    <td><%= cc_asize %></td>
+                </tr>
+                <tr>
+                    <td>Gzipped Size (in KB)</td>
+
+                    <td><%= sc_bgzipped %></td>
+                    <td><%= sc_agzipped %></td>
+
+                    <td><%= cc_bgzipped %></td>
+                    <td><%= cc_agzipped %></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="separator">
+                    <td></td>
+                    <td colspan="2">Save <%= (sc_bgzipped-sc_agzipped).toFixed(2) %> KB!</td>
+                    <td colspan="2">Save <%= (cc_bgzipped-cc_agzipped).toFixed(2) %> KB!</td>
+                </tr>
+            </tfoot>
+        </table>
+
+<% include footer %>    </body>
+</html>
