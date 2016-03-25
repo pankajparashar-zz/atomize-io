@@ -1,7 +1,7 @@
 {
-  "name": "socket-chat-example",
-  "version": "0.0.1",
-  "description": "my first socket.io app",
+  "name": "Atomize IO",
+  "version": "0.0.@",
+  "description": "Atomize your website to see how much you can benefit from Atomic CSS",
   "dependencies": {
     "critical": "^0.7.1",
     "cssstats": "^2.1.2",
